@@ -1,0 +1,124 @@
+@font-face {
+    font-family: machina;
+    src: url("./fonts/PPNeueMachina-Regular.otf");
+}
+@font-face {
+    font-family: machina;
+    src: url("./fonts/PPNeueMachina-Light.otf");
+}
+
+/* color variable create kar rahe hai */
+
+:root{
+    --salmon: #EE9D71;
+    --black: #000;
+    --white: #fff;
+    --cyan: #AEDEE0;
+    --dsalmon:#532521;
+    --dcyan: #123232;   
+}
+
+body{
+    transition: background-color ease-out .6s;
+}
+
+.vdodiv{
+    
+    clip-path: circle(var(--clip) at 50% 50%);
+}  
+
+*::selection{
+     background-color: var(--salmon); /* agr ham website pe koi bhi text select karenge to uska color salmon dikhayega  */
+
+}
+
+body[theme="black"]{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+/* body[theme="black"] .section{
+    color: var(--white);
+} */
+
+body[theme="cyan"]{
+    background-color:var(--cyan);
+}
+body[theme="cyan"] .section{
+    color: var(--dcyan);
+}
+
+body[theme="salmon"]{
+    background-color: var(--salmon);
+}
+body[theme="salmon"] .section{
+     color: var(--dsalmon);
+}
+
+body[theme="white"]{
+    background-color: var(--white);
+}
+body[theme="white"] .section{
+      color: var(--black);
+}
+
+/* last ka part k liye last bio  */
+.lastbio a {
+  font-weight: 300;
+  transition: opacity 0.3s ease;
+}
+
+.lastbio a:hover {
+  opacity: 0.6;
+}
+
+.lastbio input {
+  font-size: 14px;
+}
+
+.lastbio button:hover {
+  background-color: #e5e488;
+}
+
+/* navbar k liye jo homepage pe hai first  */
+.navitem {
+  position: relative;
+  height: 18px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.navitem span {
+  display: block;
+  transition: transform 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+/* second text starts below */
+.navitem span:last-child {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+
+
+/* hover animation */
+.navitem:hover span {
+  transform: translateY(-100%);
+}
+.contact-btn {
+  color: #000;              /* contect us ko edit kiya hai taki visible ho  */
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.contact-btn:hover {
+  opacity: 0.75;
+}
+
+
+
+
+
+
+
