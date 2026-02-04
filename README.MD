@@ -36,15 +36,12 @@ This project focuses on recreating complex scroll-based animations, interactive 
 ## 📂 Project Structure
 
 significo-frontend-clone/
-│
-├── index.html
-├── style.css
-├── script.js
-│
-├── fonts/
-│   ├── PPNeueMachina-Regular.otf
-│   └── PPNeueMachina-Light.otf
-│
-├── README.md
+- index.html
+- style.css
+- script.js
+- fonts/
+-PPNeueMachina-Regular.otf
+-PPNeueMachina-Light.otf
+- README.md
 
 
