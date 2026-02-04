@@ -3,7 +3,7 @@
 A frontend animation project inspired by the **Significo** website.  
 This project focuses on recreating complex scroll-based animations, interactive UI elements, and modern layout techniques using **GSAP**, **ScrollTrigger**, **Locomotive Scroll**, **Tailwind CSS**, and **vanilla JavaScript**.
 
-> ⚠️ This project is created **only for educational and practice purposes**.
+
 
 ---
 
