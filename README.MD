@@ -52,11 +52,13 @@ significo-frontend-clone/
 ```bash
 git clone https://github.com/your-username/significo-frontend-clone.git
 
-⚠️ Disclaimer
+cd significo-frontend-clone
 
-This project is not affiliated with or endorsed by Significo.
-All design inspiration belongs to the original creators.
+##⚠️ Disclaimer
 
-This clone is built solely for learning and portfolio demonstration purposes.
+-This project is not affiliated with or endorsed by Significo.
+-All design inspiration belongs to the original creators.
+
+-This clone is built solely for learning and portfolio demonstration purposes.
 
 
