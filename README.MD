@@ -44,4 +44,12 @@ significo-frontend-clone/
 -PPNeueMachina-Light.otf
 - README.md
 
+---
+
+## ⚙️ How to Run Locally
+
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/significo-frontend-clone.git
+
 
