@@ -1,19 +1,12 @@
-# Significo Frontend Clone 🎨✨
+# Significo Frontend Clone 
 
 A frontend animation project inspired by the **Significo** website.  
 This project focuses on recreating complex scroll-based animations, interactive UI elements, and modern layout techniques using **GSAP**, **ScrollTrigger**, **Locomotive Scroll**, **Tailwind CSS**, and **vanilla JavaScript**.
 
 
-
 ---
 
-## 🚀 Live Preview
-_(Optional)_  
-You can deploy this using **GitHub Pages** or **Vercel** later.
-
----
-
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **HTML5**
 - **CSS3**
@@ -25,7 +18,7 @@ You can deploy this using **GitHub Pages** or **Vercel** later.
 
 ---
 
-## ✨ Features
+##  Features
 
 - Smooth scrolling using Locomotive Scroll
 - Scroll-triggered animations with GSAP
@@ -41,3 +34,17 @@ You can deploy this using **GitHub Pages** or **Vercel** later.
 ---
 
 ## 📂 Project Structure
+
+significo-frontend-clone/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── fonts/
+│   ├── PPNeueMachina-Regular.otf
+│   └── PPNeueMachina-Light.otf
+│
+├── README.md
+
+
